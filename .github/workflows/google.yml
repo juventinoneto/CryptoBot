@@ -24,7 +24,7 @@ env:
   GKE_ZONE: us-central1-a
   DEPLOYMENT_NAME: gke-test # TODO: update to deployment name
   REPOSITORY: samples # TODO: update to Artifact Registry docker repository
-  IMAGE: static-site
+  #IMAGE: static-site
 
 jobs:
   setup-build-publish-deploy:
