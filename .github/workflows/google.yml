@@ -20,7 +20,7 @@ on:
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
   GAR_LOCATION: us-central1
-  GKE_CLUSTER: bot-cluster
+  GKE_CLUSTER: bot-crypto
   GKE_ZONE: us-central1-a
   DEPLOYMENT_NAME: gke-test # TODO: update to deployment name
   REPOSITORY: samples # TODO: update to Artifact Registry docker repository
