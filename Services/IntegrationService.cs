@@ -20,6 +20,6 @@ public class IntegrationService
         Console.WriteLine($"{_cont++} - {endpoint}");
         var request = string.Format(teste, "Bot API token");
 
-        await request.PostJsonAsync(new { chat_id = -634037016, text = Resource.Regular_Report });
+        await request.PostJsonAsync(new { chat_id = 0, text = Resource.Regular_Report });
     }
 }
